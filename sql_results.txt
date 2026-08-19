@@ -1,0 +1,33 @@
+=== Churn Rate by Contract Type ===
+      Contract  total_customers  churned  churn_rate_pct
+Month-to-month             3875     1655           42.71
+      One year             1473      166           11.27
+      Two year             1695       48            2.83
+
+=== Churn Rate by Tenure Bucket ===
+tenure_bucket  total_customers  churn_rate_pct
+     0-1 Year             2186           47.44
+    1-2 Years             1024           28.71
+    2-4 Years             1594           20.39
+     4+ Years             2239            9.51
+
+=== Churn Rate by Payment Method ===
+            PaymentMethod  total_customers  churn_rate_pct
+         Electronic check             2365           45.29
+             Mailed check             1612           19.11
+Bank transfer (automatic)             1544           16.71
+  Credit card (automatic)             1522           15.24
+
+=== Churn Rate by Internet Service ===
+InternetService  total_customers  churn_rate_pct
+    Fiber optic             3096           41.89
+            DSL             2421           18.96
+             No             1526            7.40
+
+=== Highest-Risk Segment (Contract x Tenure) ===
+      Contract tenure_bucket  total_customers  churn_rate_pct
+Month-to-month      0-1 Year             1994           51.35
+Month-to-month     1-2 Years              737           37.72
+Month-to-month     2-4 Years              802           32.92
+Month-to-month      4+ Years              342           26.02
+      One year      4+ Years              634           12.93

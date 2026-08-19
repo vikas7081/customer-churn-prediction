@@ -1,0 +1,24 @@
+CUSTOMER CHURN PREDICTION - MODEL EVALUATION SUMMARY
+============================================================
+Model: Logistic Regression (Scikit-learn)
+Train/Test split: 80/20, stratified
+Test set size: 1409 customers
+
+Baseline accuracy (majority class): 73.46%
+Model accuracy:                     80.70%
+Precision (churn class):            65.84%
+Recall (churn class):               56.68%
+F1 score (churn class):             60.92%
+ROC-AUC:                            0.842
+
+Top 10 predictive features:
+  - tenure: decreases churn likelihood (coef=-1.237)
+  - MonthlyCharges: decreases churn likelihood (coef=-0.920)
+  - InternetService_Fiber optic: increases churn likelihood (coef=+0.776)
+  - Contract_Two year: decreases churn likelihood (coef=-0.587)
+  - TotalCharges: increases churn likelihood (coef=+0.514)
+  - Contract_One year: decreases churn likelihood (coef=-0.286)
+  - StreamingMovies_Yes: increases churn likelihood (coef=+0.257)
+  - StreamingTV_Yes: increases churn likelihood (coef=+0.257)
+  - MultipleLines_Yes: increases churn likelihood (coef=+0.216)
+  - PaperlessBilling_Yes: increases churn likelihood (coef=+0.182)
